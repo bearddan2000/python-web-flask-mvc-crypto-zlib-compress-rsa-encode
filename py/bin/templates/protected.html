@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Hello World</h1>
+<form th:action="/logout" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+{% endblock %}
