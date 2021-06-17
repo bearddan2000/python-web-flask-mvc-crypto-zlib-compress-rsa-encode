@@ -1,10 +1,12 @@
-# python-web-flask-mvc-zlib-compress-rsa-encode
+# python-web-flask-mvc-zlib-compress-rsa-encrypt
 
 ## Description
 This is a simple login with
 compression and bencoding. A custom error
 page will be shown for unauthorized
 access.
+
+RSA should never be used to store passwords.
 
 ## Tech stack
 - python
